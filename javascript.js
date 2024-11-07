@@ -658,7 +658,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .then(function(response) {
             console.log("SUCCESS!", response.status, response.text);
-            alert("EMAILJS");
+            // alert("EMAILJS");
             
             // Send the email using SMTPJS with the emailMessage
             return Email.send({
